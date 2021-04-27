@@ -43,7 +43,7 @@ namespace sonnette
     static private bool CallWebApi(Boolean _status)
         {
             HttpClient client = new HttpClient();
-            client.BaseAddress = new Uri("<ip>:<port>");
+            client.BaseAddress = new Uri("192.168.43.241:44308");
             client.DefaultRequestHeaders.Accept.Clear();
             client.DefaultRequestHeaders.Accept.Add(new System.Net.Http.Headers.MediaTypeWithQualityHeaderValue("application/json"));
 
