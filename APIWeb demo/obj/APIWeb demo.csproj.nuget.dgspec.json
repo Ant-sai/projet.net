@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\damie\\source\\repos\\APIWeb demo\\APIWeb demo.csproj": {}
+    "C:\\Users\\damie\\Documents\\Prog\\Project_Net\\projet.net\\APIWeb demo\\APIWeb demo.csproj": {}
   },
   "projects": {
-    "C:\\Users\\damie\\source\\repos\\APIWeb demo\\APIWeb demo.csproj": {
+    "C:\\Users\\damie\\Documents\\Prog\\Project_Net\\projet.net\\APIWeb demo\\APIWeb demo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\damie\\source\\repos\\APIWeb demo\\APIWeb demo.csproj",
+        "projectUniqueName": "C:\\Users\\damie\\Documents\\Prog\\Project_Net\\projet.net\\APIWeb demo\\APIWeb demo.csproj",
         "projectName": "APIWeb demo",
-        "projectPath": "C:\\Users\\damie\\source\\repos\\APIWeb demo\\APIWeb demo.csproj",
+        "projectPath": "C:\\Users\\damie\\Documents\\Prog\\Project_Net\\projet.net\\APIWeb demo\\APIWeb demo.csproj",
         "packagesPath": "C:\\Users\\damie\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\damie\\source\\repos\\APIWeb demo\\obj\\",
+        "outputPath": "C:\\Users\\damie\\Documents\\Prog\\Project_Net\\projet.net\\APIWeb demo\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

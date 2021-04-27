@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/7kgR0RAa7uwYL5OFstDa2eWPNtNedFz5ThxP42N5ecBbUpyxGIT2ZohJbSW2n47Q++hlLALu3Rb4fNrvPwyTA==",
+  "dgSpecHash": "Rflenod0CU6a0+mHqI3kXI88vuXtj1U7xh0KyKXaOLnpyvw8zgvgDA3KZIA0HwC3TwjASIro/AoG3uFIOVHYMQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\damie\\source\\repos\\APIWeb demo\\APIWeb demo.csproj",
+  "projectFilePath": "C:\\Users\\damie\\Documents\\Prog\\Project_Net\\projet.net\\APIWeb demo\\APIWeb demo.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\damie\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\damie\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
