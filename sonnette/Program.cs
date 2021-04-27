@@ -24,12 +24,14 @@ namespace sonnette
                     if (controller.Read(buttonPin) == false && etatBouton == true)
                     {
                         etatBouton =false;
-                        controller.Write(pin, PinValue.Low);
+                        controller.Write(pin, PinValue.High);
+                        CallWebApi(etatBouton);
                     }
                     else if (etatBouton == false && controller.Read(buttonPin)==true)
                     {
                         etatBouton = true;
-                        controller.Write(pin, PinValue.High);
+                        controller.Write(pin, PinValue.Low);
+                        CallWebApi(etatBouton);
                     }
                 }
             }
@@ -37,6 +39,22 @@ namespace sonnette
             {
                 controller.ClosePin(pin);
             }
+        }
+    static private bool CallWebApi(Boolean _status)
+        {
+            HttpClient client = new HttpClient();
+            client.BaseAddress = new Uri("<ip>:<port>");
+            client.DefaultRequestHeaders.Accept.Clear();
+            client.DefaultRequestHeaders.Accept.Add(new System.Net.Http.Headers.MediaTypeWithQualityHeaderValue("application/json"));
+
+            var sonetteStatus = new sonnetteModele{
+                status = _status
+            };
+            string StatusJSON = JsonConvert.SerializeObject(sonetteStatus);
+
+            HttpResponseMessage message = client.PostAsync("/api/Sonnette", new StringContent(StatusJSON, Encoding.UTF8, "application/json")).Result;
+
+            return message.IsSuccessStatusCode;
         }
     }
 }
