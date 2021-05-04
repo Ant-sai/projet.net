@@ -4,11 +4,17 @@
     ViewData["Title"] = "Home page";
 }
 <h1>Dashboard</h1>
-<div id="sonnette">
-    <h2>Sonnette</h2>
-    <div class="col-6">
-        <ul id="notifList"></ul>
+<section id="dashboard">
+    <div id="sonnette">
+        <h2>Sonnette</h2>
+        <div class="col-6">
+            <ul id="notifList"></ul>
+        </div>
     </div>
-</div>
+    <div id="alerte-sonnette">
+        <p id="text-alert"></p>
+        <button id="open">Open the door</button>
+    </div>
+</section>
 <script src="~/js/signalr/dist/browser/signalr.js"></script>
 <script src="~/js/notif.js"></script>

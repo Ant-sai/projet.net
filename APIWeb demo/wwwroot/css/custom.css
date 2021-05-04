@@ -1,0 +1,74 @@
+#dashboard {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 1em;
+}
+
+#sonnette {
+    grid-row: 1;
+    grid-column: 1;
+    border: dashed black 1px;
+}
+
+.sonnette-active {
+    background-color: cornflowerblue;
+}
+
+#alerte-sonnette {
+    grid-row: 1;
+    grid-column: 2;
+    border: dashed black 1px;
+}
+
+.alerte-state-0 {
+    background-color: white;
+    font-weight: normal;
+}
+
+.alerte-state-1 {
+    background-color: darkseagreen;
+    font-weight: normal;
+}
+
+.alerte-state-2 {
+    background-color: yellow;
+    font-weight: 500;
+}
+
+.alerte-state-3 {
+    background-color: orange;
+    font-weight: 600;
+}
+
+.alerte-state-4 {
+    background-color: orangered;
+    font-weight: 700;
+}
+
+.alerte-state-5 {
+    background-color: red;
+    font-weight: 900;
+    animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) infinite;
+    transform: translate3d(0, 0, 0);
+    backface-visibility: hidden;
+    perspective: 1000px;
+}
+
+
+@keyframes shake {
+    10%, 90% {
+        transform: translate3d(-1px, 1px, 0);
+    }
+
+    20%, 80% {
+        transform: translate3d(2px, -1px, 0);
+    }
+
+    30%, 50%, 70% {
+        transform: translate3d(-4px, -1px, 0);
+    }
+
+    40%, 60% {
+        transform: translate3d(4px, 1px, 0);
+    }
+}

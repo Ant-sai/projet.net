@@ -1,4 +1,5 @@
 C:\Users\antoi\DotNet\projet.net\APIWeb demo\obj\Release\net5.0\win-x64\PubTmp\Out\APIWeb demo.exe
+C:\Users\antoi\DotNet\projet.net\APIWeb demo\obj\Release\net5.0\win-x64\PubTmp\Out\wwwroot\css\custom.css
 C:\Users\antoi\DotNet\projet.net\APIWeb demo\obj\Release\net5.0\win-x64\PubTmp\Out\wwwroot\css\site.css
 C:\Users\antoi\DotNet\projet.net\APIWeb demo\obj\Release\net5.0\win-x64\PubTmp\Out\wwwroot\favicon.ico
 C:\Users\antoi\DotNet\projet.net\APIWeb demo\obj\Release\net5.0\win-x64\PubTmp\Out\wwwroot\js\notif.js
