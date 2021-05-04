@@ -36,13 +36,13 @@ namespace sonnette
                     {
                         etatBouton = false;
                         controller.Write(config.LEDPin, PinValue.High);
-                        CallWebApi(etatBouton);
+                        CallWebApi(!etatBouton);
                     }
                     else if (etatBouton == false && controller.Read(config.BtnPin) == true)
                     {
                         etatBouton = true;
                         controller.Write(config.LEDPin, PinValue.Low);
-                        CallWebApi(etatBouton);
+                        CallWebApi(!etatBouton);
                     }
                 }
             }
