@@ -88,3 +88,6 @@ C:\Users\antoi\DotNet\projet.net\APIWeb demo\obj\Debug\net5.0\APIWeb demo.RazorT
 C:\Users\antoi\DotNet\projet.net\APIWeb demo\obj\Debug\net5.0\APIWeb demo.Views.pdb
 C:\Users\antoi\DotNet\projet.net\APIWeb demo\obj\Debug\net5.0\APIWeb demo.csproj.CopyComplete
 C:\Users\antoi\DotNet\projet.net\APIWeb demo\obj\Debug\net5.0\APIWeb demo.genruntimeconfig.cache
+C:\Users\antoi\DotNet\projet.net\APIWeb demo\bin\Debug\net5.0\wwwroot\favicon.ico
+C:\Users\antoi\DotNet\projet.net\APIWeb demo\bin\Debug\net5.0\wwwroot\js\notif.js
+C:\Users\antoi\DotNet\projet.net\APIWeb demo\bin\Debug\net5.0\wwwroot\js\site.js

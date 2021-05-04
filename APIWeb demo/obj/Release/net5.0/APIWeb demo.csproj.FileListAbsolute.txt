@@ -1,0 +1,48 @@
+C:\Users\antoi\DotNet\projet.net\APIWeb demo\bin\Release\net5.0\appsettings.Development.json
+C:\Users\antoi\DotNet\projet.net\APIWeb demo\bin\Release\net5.0\appsettings.json
+C:\Users\antoi\DotNet\projet.net\APIWeb demo\bin\Release\net5.0\APIWeb demo.exe
+C:\Users\antoi\DotNet\projet.net\APIWeb demo\bin\Release\net5.0\APIWeb demo.deps.json
+C:\Users\antoi\DotNet\projet.net\APIWeb demo\bin\Release\net5.0\APIWeb demo.runtimeconfig.json
+C:\Users\antoi\DotNet\projet.net\APIWeb demo\bin\Release\net5.0\APIWeb demo.runtimeconfig.dev.json
+C:\Users\antoi\DotNet\projet.net\APIWeb demo\bin\Release\net5.0\APIWeb demo.dll
+C:\Users\antoi\DotNet\projet.net\APIWeb demo\bin\Release\net5.0\ref\APIWeb demo.dll
+C:\Users\antoi\DotNet\projet.net\APIWeb demo\bin\Release\net5.0\APIWeb demo.pdb
+C:\Users\antoi\DotNet\projet.net\APIWeb demo\bin\Release\net5.0\APIWeb demo.Views.dll
+C:\Users\antoi\DotNet\projet.net\APIWeb demo\bin\Release\net5.0\APIWeb demo.Views.pdb
+C:\Users\antoi\DotNet\projet.net\APIWeb demo\bin\Release\net5.0\Microsoft.OpenApi.dll
+C:\Users\antoi\DotNet\projet.net\APIWeb demo\bin\Release\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\antoi\DotNet\projet.net\APIWeb demo\bin\Release\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\antoi\DotNet\projet.net\APIWeb demo\bin\Release\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\antoi\DotNet\projet.net\APIWeb demo\obj\Release\net5.0\APIWeb demo.csprojAssemblyReference.cache
+C:\Users\antoi\DotNet\projet.net\APIWeb demo\obj\Release\net5.0\APIWeb demo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\antoi\DotNet\projet.net\APIWeb demo\obj\Release\net5.0\APIWeb demo.AssemblyInfoInputs.cache
+C:\Users\antoi\DotNet\projet.net\APIWeb demo\obj\Release\net5.0\APIWeb demo.AssemblyInfo.cs
+C:\Users\antoi\DotNet\projet.net\APIWeb demo\obj\Release\net5.0\APIWeb demo.csproj.CoreCompileInputs.cache
+C:\Users\antoi\DotNet\projet.net\APIWeb demo\obj\Release\net5.0\APIWeb demo.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\antoi\DotNet\projet.net\APIWeb demo\obj\Release\net5.0\APIWeb demo.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\antoi\DotNet\projet.net\APIWeb demo\obj\Release\net5.0\APIWeb demo.RazorAssemblyInfo.cache
+C:\Users\antoi\DotNet\projet.net\APIWeb demo\obj\Release\net5.0\APIWeb demo.RazorAssemblyInfo.cs
+C:\Users\antoi\DotNet\projet.net\APIWeb demo\obj\Release\net5.0\staticwebassets\APIWeb demo.StaticWebAssets.Manifest.cache
+C:\Users\antoi\DotNet\projet.net\APIWeb demo\obj\Release\net5.0\staticwebassets\APIWeb demo.StaticWebAssets.xml
+C:\Users\antoi\DotNet\projet.net\APIWeb demo\obj\Release\net5.0\scopedcss\bundle\APIWeb demo.styles.css
+C:\Users\antoi\DotNet\projet.net\APIWeb demo\obj\Release\net5.0\APIWeb demo.TagHelpers.input.cache
+C:\Users\antoi\DotNet\projet.net\APIWeb demo\obj\Release\net5.0\APIWeb demo.TagHelpers.output.cache
+C:\Users\antoi\DotNet\projet.net\APIWeb demo\obj\Release\net5.0\APIWeb demo.RazorCoreGenerate.cache
+C:\Users\antoi\DotNet\projet.net\APIWeb demo\obj\Release\net5.0\Razor\Pages\Error.cshtml.g.cs
+C:\Users\antoi\DotNet\projet.net\APIWeb demo\obj\Release\net5.0\Razor\Pages\Index.cshtml.g.cs
+C:\Users\antoi\DotNet\projet.net\APIWeb demo\obj\Release\net5.0\Razor\Pages\Privacy.cshtml.g.cs
+C:\Users\antoi\DotNet\projet.net\APIWeb demo\obj\Release\net5.0\Razor\Pages\Shared\_Layout.cshtml.g.cs
+C:\Users\antoi\DotNet\projet.net\APIWeb demo\obj\Release\net5.0\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\antoi\DotNet\projet.net\APIWeb demo\obj\Release\net5.0\Razor\Pages\_ViewImports.cshtml.g.cs
+C:\Users\antoi\DotNet\projet.net\APIWeb demo\obj\Release\net5.0\Razor\Pages\_ViewStart.cshtml.g.cs
+C:\Users\antoi\DotNet\projet.net\APIWeb demo\obj\Release\net5.0\APIWeb demo.RazorTargetAssemblyInfo.cache
+C:\Users\antoi\DotNet\projet.net\APIWeb demo\obj\Release\net5.0\APIWeb demo.RazorTargetAssemblyInfo.cs
+C:\Users\antoi\DotNet\projet.net\APIWeb demo\obj\Release\net5.0\APIWeb demo.Views.pdb
+C:\Users\antoi\DotNet\projet.net\APIWeb demo\obj\Release\net5.0\APIWeb demo.csproj.CopyComplete
+C:\Users\antoi\DotNet\projet.net\APIWeb demo\obj\Release\net5.0\APIWeb demo.dll
+C:\Users\antoi\DotNet\projet.net\APIWeb demo\obj\Release\net5.0\ref\APIWeb demo.dll
+C:\Users\antoi\DotNet\projet.net\APIWeb demo\obj\Release\net5.0\APIWeb demo.pdb
+C:\Users\antoi\DotNet\projet.net\APIWeb demo\obj\Release\net5.0\APIWeb demo.genruntimeconfig.cache
+C:\Users\antoi\DotNet\projet.net\APIWeb demo\bin\Release\net5.0\wwwroot\favicon.ico
+C:\Users\antoi\DotNet\projet.net\APIWeb demo\bin\Release\net5.0\wwwroot\js\notif.js
+C:\Users\antoi\DotNet\projet.net\APIWeb demo\bin\Release\net5.0\wwwroot\js\site.js
