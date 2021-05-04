@@ -1326,34 +1326,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\antoi\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
+    "/home/pi/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\antoi\\DotNet\\projet.net\\sonnette\\sonnette.csproj",
+      "projectUniqueName": "/home/pi/projet.net/sonnette/sonnette.csproj",
       "projectName": "sonnette",
-      "projectPath": "C:\\Users\\antoi\\DotNet\\projet.net\\sonnette\\sonnette.csproj",
-      "packagesPath": "C:\\Users\\antoi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\antoi\\DotNet\\projet.net\\sonnette\\obj\\",
+      "projectPath": "/home/pi/projet.net/sonnette/sonnette.csproj",
+      "packagesPath": "/home/pi/.nuget/packages/",
+      "outputPath": "/home/pi/projet.net/sonnette/obj/",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-      ],
       "configFilePaths": [
-        "C:\\Users\\antoi\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "/home/pi/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -1420,7 +1410,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/opt/dotnet/sdk/5.0.202/RuntimeIdentifierGraph.json"
       }
     }
   }

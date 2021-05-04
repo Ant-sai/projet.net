@@ -2,7 +2,7 @@ using System;
 
 namespace sonnette{
     public class sonnetteModele{
-        public Boolean status{
+        public Boolean state{
             get;
             set;
         }

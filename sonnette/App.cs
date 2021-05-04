@@ -62,12 +62,12 @@ namespace sonnette
 
             var sonetteStatus = new sonnetteModele
             {
-                status = _status
+                state = _status
             };
             string StatusJSON = JsonConvert.SerializeObject(sonetteStatus);
 
             HttpResponseMessage message = client.PostAsync("/api/Sonnette", new StringContent(StatusJSON, Encoding.UTF8, "application/json")).Result;
-
+	    Console.WriteLine($"call APIs sonette.statu = {_status} succes = {message.IsSuccessStatusCode}");
             return message.IsSuccessStatusCode;
         }
 
