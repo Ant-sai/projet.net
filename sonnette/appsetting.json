@@ -1,0 +1,15 @@
+﻿{
+  "DetailedErrors": true,
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft": "Warning",
+      "Microsoft.Hosting.Lifetime": "Information"
+    }
+  },
+  "AppConfiguration": {
+    "UrlServer": "192.168.43.241:44308",
+    "BtnPin": 13,
+    "LedPin": 11
+  }
+}

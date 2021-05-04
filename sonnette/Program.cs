@@ -3,60 +3,47 @@ using System.Device.Gpio;
 using Newtonsoft.Json;
 using System.Text;
 using System.Net.Http;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Configuration;
+using System.IO;
+using sonnette.Configuration;
+
 namespace sonnette
 {
     class Program
     {
+        private static ServiceCollection Services { get; set; }
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
-
-            GpioController controller = new GpioController(PinNumberingScheme.Board);
-            var pin = 11;
-            var buttonPin = 13;
-            var etatBouton = false;
-
-            controller.OpenPin(pin, PinMode.Output);
-            controller.OpenPin(buttonPin, PinMode.InputPullUp);
+            Services = new ServiceCollection();
+            configureServices(Services);
+            IServiceProvider serviceProvider = Services.BuildServiceProvider();
 
             try
             {
-                while (true)
-                {
-                    if (controller.Read(buttonPin) == false && etatBouton == true)
-                    {
-                        etatBouton =false;
-                        controller.Write(pin, PinValue.High);
-                        CallWebApi(etatBouton);
-                    }
-                    else if (etatBouton == false && controller.Read(buttonPin)==true)
-                    {
-                        etatBouton = true;
-                        controller.Write(pin, PinValue.Low);
-                        CallWebApi(etatBouton);
-                    }
-                }
+                serviceProvider.GetService<App>().Run();
             }
-            finally
+            catch(Exception ex)
             {
-                controller.ClosePin(pin);
+                throw;
             }
+            
         }
-    static private bool CallWebApi(Boolean _status)
+    static private void configureServices(IServiceCollection services)
         {
-            HttpClient client = new HttpClient();
-            client.BaseAddress = new Uri("192.168.43.241:44308");
-            client.DefaultRequestHeaders.Accept.Clear();
-            client.DefaultRequestHeaders.Accept.Add(new System.Net.Http.Headers.MediaTypeWithQualityHeaderValue("application/json"));
+            var configuration = new ConfigurationBuilder()
+                .SetBasePath(Directory.GetCurrentDirectory())
+                .AddJsonFile("appsettings.json", false, true)
+                .Build();
 
-            var sonetteStatus = new sonnetteModele{
-                status = _status
-            };
-            string StatusJSON = JsonConvert.SerializeObject(sonetteStatus);
+            services.AddSingleton(configuration);
 
-            HttpResponseMessage message = client.PostAsync("/api/Sonnette", new StringContent(StatusJSON, Encoding.UTF8, "application/json")).Result;
+            services.Configure<AppConfig>(configuration.GetSection("AppConfiguration"));
 
-            return message.IsSuccessStatusCode;
+            // Add app
+            services.AddTransient<App>();
+
         }
+    
     }
 }
