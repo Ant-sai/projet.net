@@ -10,6 +10,6 @@ Pour que le système fonctionne les applications doivent être installées sur d
 Un serveur IIS doit être mit sur l'ordinateur afin de permettre la communication des systèmes
 
 En cas de problème sur le projet vous pouvez contacter l'un des membres de l'équipe sur ces adresses:
-Damien Aranda: daranda.ir2022@esaip.org
-Manon Lestienne: mlestienne.ing2022@esaip.org
-Antoine Saint-Louis: asaintlouis.ing2022@esaip.org
+- Damien Aranda: daranda.ir2022@esaip.org
+- Manon Lestienne: mlestienne.ing2022@esaip.org
+- Antoine Saint-Louis: asaintlouis.ing2022@esaip.org
